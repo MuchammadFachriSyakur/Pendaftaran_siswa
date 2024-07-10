@@ -46,12 +46,13 @@
             </p>
             <p class="w-full flex flex-col justify-center items-start gap-2">
                 <label for="agama" class="text-[16px]">Agama: </label>
-                <select name="agama" class="w-full p-3">
-                    <option>Islam</option>
-                    <option>Kristen</option>
-                    <option>Hindu</option>
-                    <option>Budha</option>
-                    <option>Atheis</option>
+                <select name="agama" class="w-full p-3" required>
+                    <option value="">Silahkan pilih agamamu</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                    <option value="Atheis">Atheis</option>
                 </select>
             </p>
             <p class="w-full flex flex-col justify-center items-start gap-2">
